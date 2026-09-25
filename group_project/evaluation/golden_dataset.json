@@ -1,0 +1,83 @@
+[
+  {
+    "question": "Hộ kinh doanh do những ai có quyền đăng ký thành lập?",
+    "expected_answer": "Hộ kinh doanh do một cá nhân hoặc các thành viên hộ gia đình đăng ký thành lập và chịu trách nhiệm bằng toàn bộ tài sản của mình đối với hoạt động kinh doanh của hộ.",
+    "expected_context": "Hộ kinh doanh do một cá nhân hoặc các thành viên hộ gia đình đăng ký thành lập và chịu trách nhiệm bằng toàn bộ tài sản của mình đối với hoạt động kinh doanh của hộ. Trường hợp các thành viên hộ gia đình đăng ký hộ kinh doanh thì ủy quyền cho một thành viên làm đại diện hộ kinh doanh."
+  },
+  {
+    "question": "Mỗi cá nhân được phép đăng ký tối đa bao nhiêu hộ kinh doanh trên phạm vi toàn quốc?",
+    "expected_answer": "Mỗi cá nhân, thành viên hộ gia đình chỉ được đăng ký một hộ kinh doanh trong phạm vi toàn quốc.",
+    "expected_context": "Mỗi cá nhân, thành viên hộ gia đình chỉ được đăng ký một hộ kinh doanh trong phạm vi toàn quốc và được quyền góp vốn, mua cổ phần, mua phần vốn góp trong doanh nghiệp với tư cách cá nhân."
+  },
+  {
+    "question": "Hộ kinh doanh có được phép hoạt động tại nhiều địa điểm không?",
+    "expected_answer": "Hộ kinh doanh có thể hoạt động tại nhiều địa điểm nhưng phải chọn một địa điểm để đăng ký trụ sở và thông báo cho cơ quan quản lý thuế, quản lý thị trường nơi tiến hành hoạt động tại các địa điểm còn lại.",
+    "expected_context": "Một hộ kinh doanh có thể hoạt động kinh doanh tại nhiều địa điểm nhưng phải chọn một địa điểm để đăng ký trụ sở hộ kinh doanh và phải thông báo cho Cơ quan quản lý thuế, Cơ quan quản lý thị trường nơi tiến hành hoạt động kinh doanh đối với các địa điểm kinh doanh còn lại."
+  },
+  {
+    "question": "Thời hạn cơ quan đăng ký kinh doanh cấp huyện cấp Giấy chứng nhận đăng ký hộ kinh doanh là bao lâu?",
+    "expected_answer": "Thời hạn cấp Giấy chứng nhận đăng ký hộ kinh doanh là 03 ngày làm việc kể từ ngày nhận hồ sơ hợp lệ.",
+    "expected_context": "Cơ quan đăng ký kinh doanh cấp huyện trao Giấy biên nhận và cấp Giấy chứng nhận đăng ký hộ kinh doanh cho hộ kinh doanh trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ hợp lệ."
+  },
+  {
+    "question": "Ngưỡng doanh thu hàng năm để hộ kinh doanh không phải nộp thuế GTGT và thuế TNCN là bao nhiêu?",
+    "expected_answer": "Hộ kinh doanh có doanh thu trong năm dương lịch từ 100 triệu đồng trở xuống thì thuộc diện không phải nộp thuế GTGT và thuế TNCN.",
+    "expected_context": "Hộ kinh doanh, cá nhân kinh doanh có doanh thu từ hoạt động sản xuất, kinh doanh trong năm dương lịch từ 100 triệu đồng trở xuống thì thuộc diện không phải nộp thuế Giá trị gia tăng (GTGT) và không phải nộp thuế Thu nhập cá nhân (TNCN)."
+  },
+  {
+    "question": "Tỷ lệ thuế GTGT và TNCN đối với ngành phân phối, bán buôn, bán lẻ hàng hóa là bao nhiêu?",
+    "expected_answer": "Tỷ lệ thuế GTGT là 1% và thuế TNCN là 0.5%, tổng cộng là 1.5% tính trên doanh thu.",
+    "expected_context": "1. Phân phối, cung cấp hàng hóa (bán buôn, bán lẻ): Tỷ lệ thuế GTGT là 1%; Tỷ lệ thuế TNCN là 0.5% (Tổng cộng 1.5% trên doanh thu)."
+  },
+  {
+    "question": "Tỷ lệ thuế GTGT và TNCN đối với ngành dịch vụ, xây dựng không bao thầu nguyên vật liệu là bao nhiêu?",
+    "expected_answer": "Tỷ lệ thuế GTGT là 5% và thuế TNCN là 2%, tổng cộng là 7% tính trên doanh thu.",
+    "expected_context": "2. Dịch vụ, xây dựng không bao thầu nguyên vật liệu: Tỷ lệ thuế GTGT là 5%; Tỷ lệ thuế TNCN là 2% (Tổng cộng 7% trên doanh thu)."
+  },
+  {
+    "question": "Tỷ lệ thuế đối với hoạt động sản xuất, vận tải, dịch vụ có gắn với hàng hóa là bao nhiêu?",
+    "expected_answer": "Tỷ lệ thuế GTGT là 3% và thuế TNCN là 1.5%, tổng cộng là 4.5% trên doanh thu.",
+    "expected_context": "3. Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu: Tỷ lệ thuế GTGT là 3%; Tỷ lệ thuế TNCN là 1.5% (Tổng cộng 4.5% trên doanh thu)."
+  },
+  {
+    "question": "Hộ kinh doanh nộp thuế theo phương pháp khoán áp dụng cho đối tượng nào?",
+    "expected_answer": "Phương pháp khoán áp dụng cho hộ kinh doanh không thực hiện hoặc thực hiện không đầy đủ chế độ kế toán, hóa đơn, chứng từ.",
+    "expected_context": "Phương pháp khoán được áp dụng đối với hộ kinh doanh, cá nhân kinh doanh không thực hiện hoặc thực hiện không đầy đủ chế độ kế toán, hóa đơn, chứng từ. Cơ quan thuế xác định doanh thu và mức thuế khoán theo hồ sơ khai thuế."
+  },
+  {
+    "question": "Những mô hình kinh doanh nào của hộ kê khai được áp dụng hóa đơn điện tử khởi tạo từ máy tính tiền?",
+    "expected_answer": "Bao gồm trung tâm thương mại, siêu thị, bán lẻ hàng tiêu dùng, ăn uống, nhà hàng, khách sạn, bán lẻ thuốc tân dược, dịch vụ vui chơi giải trí.",
+    "expected_context": "Hộ kinh doanh nộp thuế theo phương pháp kê khai có hoạt động cung cấp hàng hóa, dịch vụ trực tiếp đến người tiêu dùng theo mô hình kinh doanh (trung tâm thương mại; siêu thị; bán lẻ hàng tiêu dùng; ăn uống; nhà hàng; khách sạn; bán lẻ thuốc tân dược; dịch vụ vui chơi, giải trí)."
+  },
+  {
+    "question": "Hóa đơn điện tử khởi tạo từ máy tính tiền có bắt buộc phải có chữ ký số của người bán không?",
+    "expected_answer": "Không bắt buộc, hóa đơn điện tử khởi tạo từ máy tính tiền không bắt buộc phải có chữ ký số của người bán.",
+    "expected_context": "Mã của cơ quan thuế hoặc mã khởi tạo từ máy tính tiền được cấp theo định dạng chuẩn của Tổng cục Thuế. Hóa đơn không bắt buộc phải có chữ ký số của người bán."
+  },
+  {
+    "question": "Thời gian lưu trữ dữ liệu hóa đơn điện tử của hộ kinh doanh tối thiểu là bao nhiêu năm?",
+    "expected_answer": "Hóa đơn điện tử phải được lưu trữ an toàn, bảo mật dữ liệu tối thiểu 10 năm theo quy định của Luật Kế toán.",
+    "expected_context": "Hóa đơn điện tử phải được lưu trữ an toàn, bảo mật dữ liệu tối thiểu 10 năm theo Luật Kế toán."
+  },
+  {
+    "question": "Hộ kinh doanh bán hàng trên các sàn Shopee, TikTok Shop có nghĩa vụ thuế như thế nào?",
+    "expected_answer": "Hộ kinh doanh có doanh thu trên sàn TMĐT từ 100 triệu đồng/năm trở lên phải nộp thuế 1.5% đối với hàng hóa, tự kê khai hoặc ủy quyền cho sàn khai và nộp thuế thay.",
+    "expected_context": "Người bán hàng có doanh thu vượt 100 triệu đồng/năm phải nộp thuế 1.5% (đối với hàng hóa). Cơ quan thuế sẽ đối soát số liệu tự khai với số liệu do sàn cung cấp để phát hiện hành vi trốn thuế hoặc khai thiếu doanh thu."
+  },
+  {
+    "question": "Hộ kinh doanh thiết lập website bán hàng có bắt buộc phải thông báo với Bộ Công Thương không?",
+    "expected_answer": "Có bắt buộc, hộ kinh doanh thiết lập website có tính năng đặt hàng trực tuyến phải thực hiện thủ tục thông báo với Bộ Công Thương trên cổng online.gov.vn.",
+    "expected_context": "Hộ kinh doanh thiết lập website hoặc ứng dụng di động để phục vụ hoạt động xúc tiến thương mại, bán hàng hóa hoặc cung ứng dịch vụ của mình phải thực hiện thủ tục thông báo với Bộ Công Thương trực tuyến qua Cổng thông tin Quản lý hoạt động thương mại điện tử (online.gov.vn)."
+  },
+  {
+    "question": "Mức phạt đối với hành vi kinh doanh dưới hình thức hộ kinh doanh mà không đăng ký thành lập là bao nhiêu?",
+    "expected_answer": "Mức phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng và buộc phải đăng ký thành lập hộ kinh doanh.",
+    "expected_context": "Hành vi kinh doanh dưới hình thức hộ kinh doanh mà không đăng ký thành lập theo quy định bị phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng. Biện pháp khắc phục hậu quả: Buộc đăng ký thành lập hộ kinh doanh theo quy định."
+  },
+  {
+    "question": "Trường hợp người dân hỏi về quy định chưa có trong cơ sở dữ liệu pháp lý của hộ kinh doanh thì xử lý như thế nào?",
+    "expected_answer": "Hệ thống từ chối an toàn và hướng dẫn người dùng liên hệ trực tiếp Cơ quan Thuế qua Đường dây nóng 1800 1525 hoặc SĐT Cục Thuế 024 3768 9679 / 028 3770 2288.",
+    "expected_context": "Hiện tại hệ thống chưa tìm thấy dữ liệu quy định phù hợp trong cơ sở pháp luật hiện có để trả lời câu hỏi này. Để đảm bảo quyền lợi và nhận được hướng dẫn pháp lý chính xác nhất theo từng trường hợp cụ thể, quý hộ kinh doanh vui lòng liên hệ trực tiếp Cơ quan Thuế: Đường dây nóng 1800 1525 hoặc SĐT 024 3768 9679."
+  }
+]
+

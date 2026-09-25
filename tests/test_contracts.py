@@ -253,3 +253,23 @@ def test_generation_result_validator_accepts_safe_refusal():
             "retrieval_source": "none",
         }
     )
+
+
+def test_generation_safe_refusal_contacts_tax_office_with_phone(monkeypatch):
+    """Kiểm tra khi không có dữ liệu thì hệ thống hướng dẫn liên hệ Cục Thuế và cung cấp SĐT hotline."""
+    import src.task10_generation as gen
+
+    # Giả lập retrieve không tìm thấy dữ liệu (empty chunks)
+    monkeypatch.setattr(gen, "retrieve", lambda query, top_k: [])
+    result = gen.generate_with_citation("câu hỏi chưa có trong cơ sở dữ liệu pháp luật")
+
+    validate_generation_result(result)
+    assert result["retrieval_source"] == "none"
+    assert result["sources"] == []
+    
+    answer = result["answer"].lower()
+    # Phải đề cập đến cơ quan thuế / cục thuế
+    assert "thuế" in answer or "cục thuế" in answer
+    # Phải có số điện thoại hotline liên hệ
+    assert any(phone in result["answer"] for phone in ["1800 1525", "024 3768 9679", "028 3770 2288"])
+
