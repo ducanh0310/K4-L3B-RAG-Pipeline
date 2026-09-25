@@ -13,9 +13,9 @@
 
 | Module/deliverable | Việc tôi trực tiếp làm | File/commit/PR | Trạng thái |
 |---|---|---|---|
-| Task 9 — Retrieval Pipeline | Tích hợp toàn bộ luồng tìm kiếm `retrieve()`, tự động kết hợp Hybrid Search (Dense + Lexical RRF) và kích hoạt Fallback khi điểm số dưới ngưỡng (`SCORE_THRESHOLD=0.3`) | [src/task9_retrieval_pipeline.py](file:///d:/LabCode/Afternoon/K4-L3B-RAG-Pipeline/src/task9_retrieval_pipeline.py) | Done |
-| Task 10 — Citation Generation | Thiết kế thuật toán `reorder_for_llm()` chống lost-in-the-middle, format context kèm title/source, tích hợp OpenAI LLM & bộ tổng hợp chuyên gia tư vấn pháp lý offline | [src/task10_generation.py](file:///d:/LabCode/Afternoon/K4-L3B-RAG-Pipeline/src/task10_generation.py) | Done |
-| Prompt Engineering | Thiết kế System Prompt tư vấn pháp luật chuyên nghiệp theo cấu trúc: Kết luận nhanh, Quy định chi tiết, Căn cứ pháp lý, Lời khuyên thực tiễn | [src/task10_generation.py](file:///d:/LabCode/Afternoon/K4-L3B-RAG-Pipeline/src/task10_generation.py) | Done |
+| Task 9 — Retrieval Pipeline | Tích hợp toàn bộ luồng tìm kiếm `retrieve()`, tự động kết hợp Hybrid Search (Dense + Lexical RRF) và kích hoạt Fallback khi điểm số dưới ngưỡng (`SCORE_THRESHOLD=0.3`) | [src/task9_retrieval_pipeline.py](../../src/task9_retrieval_pipeline.py) | Done |
+| Task 10 — Citation Generation | Thiết kế thuật toán `reorder_for_llm()` chống lost-in-the-middle, format context kèm title/source, tích hợp OpenAI LLM & bộ tổng hợp chuyên gia tư vấn pháp lý offline | [src/task10_generation.py](../../src/task10_generation.py) | Done |
+| Prompt Engineering | Thiết kế System Prompt tư vấn pháp luật chuyên nghiệp theo cấu trúc: Kết luận nhanh, Quy định chi tiết, Căn cứ pháp lý, Lời khuyên thực tiễn | [src/task10_generation.py](../../src/task10_generation.py) | Done |
 
 ## Quyết định kỹ thuật quan trọng
 
